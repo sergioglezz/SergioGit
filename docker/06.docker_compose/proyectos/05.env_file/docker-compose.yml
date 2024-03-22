@@ -1,0 +1,9 @@
+# Se recomienda usar siempre la última version de docker compose
+version: '3'
+services:
+  db:
+    container_name: mysql-v2
+    ports:
+      - "3306:3306"
+    image: mysql:5.7
+    env_file: common.env

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    container_name: nginx
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 50M   
+    image: nginx:alpine
