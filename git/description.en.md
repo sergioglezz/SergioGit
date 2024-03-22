@@ -1,51 +1,51 @@
-Bienvenidos al curso "Curso de Git", una travesía exhaustiva diseñada para llevarte desde los cimientos del control de versiones con Git hasta las técnicas y estrategias más avanzadas empleadas en entornos empresariales y de colaboración masiva. Este curso está cuidadosamente estructurado para ofrecerte no solo el conocimiento técnico necesario para manejar Git de manera eficaz sino también para entender las mejores prácticas y patrones de trabajo que te convertirán en un colaborador excepcional en cualquier proyecto de software.
+Welcome to the Git Course, a comprehensive journey designed to take you from the foundations of version control with Git to the most advanced techniques and strategies used in enterprise and crowdsourcing environments. This course is carefully structured to give you not only the technical knowledge needed to effectively handle Git but also to understand the best practices and working patterns that will make you an exceptional contributor on any software project.
 
-#### ¿Qué Aprenderás?
+#### What Will You Learn?
 
-**Sección 1: Introducción a Git**
-- Comenzarás tu viaje explorando qué es Git, por qué se ha convertido en el estándar de facto para el control de versiones en la industria del software, y cómo configurar tu entorno Git para el éxito.
+**Section 1: Introduction to Git**
+- You'll begin your journey by exploring what Git is, why it has become the de facto standard for version control in the software industry, and how to set up your Git environment for success.
 
-**Sección 2: Fundamentos de Git**
-- Sumérgete en los fundamentos de Git, aprendiendo sobre repositorios, el ciclo de vida de los archivos dentro de Git, y cómo realizar cambios efectivos a través de commits y branches.
+**Section 2: Git Basics**
+- Dive into the fundamentals of Git, learning about repositories, the life cycle of files within Git, and how to make effective changes through commits and branches.
 
-**Sección 3: Ramas en Git**
-- Descubre el poder de las ramas en Git para facilitar el desarrollo paralelo y cómo la fusión efectiva de estas puede ser clave para la gestión de características y la resolución de conflictos.
+**Section 3: Branches in Git**
+- Discover the power of branches in Git to facilitate parallel development and how effective merging of these can be key to feature management and conflict resolution.
 
-**Sección 4: Trabajando con Repositorios Remotos**
-- Domina el arte de sincronizar tu trabajo con repositorios remotos a través de GitHub y otros servicios, entendiendo el flujo de trabajo colaborativo que Git facilita.
+**Section 4: Working with Remote Repositories**
+- Master the art of synchronizing your work with remote repositories through GitHub and other services, understanding the collaborative workflow that Git facilitates.
 
-**Sección 5: Herramientas Avanzadas de Git**
-- Profundiza en técnicas avanzadas como stashing, rebasing y cherry-picking, herramientas poderosas para manipular la historia de tu proyecto y mantener un repositorio limpio.
+**Section 5: Advanced Git Tools**
+- Delve into advanced techniques such as stashing, rebasing and cherry-picking, powerful tools to manipulate your project history and maintain a clean repository.
 
-**Sección 6: Rehaciendo Cambios y Manipulación del Historial**
-- Aprende a utilizar `git reset` y otras herramientas para rehacer cambios y manejar tu historial de commits de manera efectiva, manteniendo la integridad de tu proyecto.
+**Section 6: Remaking Changes and Manipulation of History**
+- Learn how to use `git reset` and other tools to redo changes and manage your commit history effectively, maintaining the integrity of your project.
 
-**Sección 7: Mejores Prácticas y Patrones de Trabajo**
-- Explora estrategias de ramificación como Git Flow, GitHub Flow y GitLab Flow, además de aprender sobre etiquetas, lanzamientos, y cómo escribir mensajes de commit claros y descriptivos.
+**Section 7: Best Practices and Work Patterns**
+- Explore branching strategies like Git Flow, GitHub Flow, and GitLab Flow, plus learn about tags, releases, and how to write clear and descriptive commit messages.
 
-**Sección 8: Git Avanzado y Personalización**
-- Descubre cómo personalizar tu experiencia Git con hooks y alias, automatizando tareas y simplificando tu flujo de trabajo.
+**Section 8: Advanced Git and Customization**
+- Discover how to customize your Git experience with hooks and aliases, automating tasks and simplifying your workflow.
 
-**Sección 9: Herramientas y Extensiones de Git**
-- Investiga cómo las herramientas de visualización y análisis, como GitKraken y SourceTree, así como la integración de Git con IDEs, pueden mejorar tu eficiencia y comprensión del proyecto.
+**Section 9: Git Tools and Extensions**
+- Investigate how visualization and analysis tools, such as GitKraken and SourceTree, as well as integrating Git with IDEs, can improve your efficiency and understanding of the project.
 
-**Sección 10: Seguridad y Recuperación en Git**
-- Adquiere conocimientos esenciales sobre la seguridad en Git, incluyendo la firma de commits y tags con GPG, y cómo recuperar cambios perdidos.
+**Section 10: Security and Recovery in Git**
+- Learn essential knowledge about Git security, including signing commits and tags with GPG, and how to recover lost changes.
 
-**Sección 11: Git en el Entorno Empresarial**
-- Prepara para la gestión de grandes repositorios con Git LFS y aprende estrategias para trabajar eficazmente en equipos grandes.
+**Section 11: Git in the Enterprise Environment**
+- Prepare to manage large repositories with Git LFS and learn strategies to work effectively in large teams.
 
-**Sección 12: Colaboración y Code Review en Git**
-- Domina el proceso de pull requests y revisión de código, aprendiendo a colaborar eficazmente y a contribuir a la calidad del código en proyectos compartidos.
+**Section 12: Collaboration and Code Review in Git**
+- Master the process of pull requests and code review, learning to collaborate effectively and contribute to code quality in shared projects.
 
-#### ¿Para Quién es Este Curso?
+#### Who is this course for?
 
-Este curso está diseñado para desarrolladores, ingenieros de software, gestores de proyectos y cualquier profesional IT que busque dominar Git. Ya sea que estés comenzando tu camino en el desarrollo de software o seas un veterano buscando afinar tus habilidades y aprender las mejores prácticas de colaboración, este curso te proporcionará las herramientas y el conocimiento necesarios para trabajar con confianza en cualquier proyecto de software.
+This course is designed for developers, software engineers, project managers, and any IT professional looking to master Git. Whether you're just starting your path in software development or are a veteran looking to sharpen your skills and learn collaboration best practices, this course will provide you with the tools and knowledge needed to work confidently on any software project.
 
-#### Conclusión
+#### Conclusion
 
-"Maestría en Git - De Principiante a Experto" te equipará con una comprensión profunda de Git, desde sus operaciones básicas hasta estrategias avanzadas utilizadas en la industria. Al final del curso, serás capaz de gestionar eficazmente tus proyectos de software, colaborar en equipos grandes y aplicar las mejores prácticas y patrones de trabajo en tus desarrollos.
+"Git Mastery - From Beginner to Expert" will equip you with a deep understanding of Git, from its basic operations to advanced strategies used in the industry. At the end of the course, you will be able to effectively manage your software projects, collaborate in large teams and apply best practices and work patterns in your developments.
 
 Prep
 
-árate para desbloquear el verdadero potencial de Git y transformar tu flujo de trabajo de desarrollo. ¡Tu viaje hacia la maestría en Git comienza aquí!
+Get ready to unlock the true potential of Git and transform your development workflow. Your journey to Git mastery starts here!
