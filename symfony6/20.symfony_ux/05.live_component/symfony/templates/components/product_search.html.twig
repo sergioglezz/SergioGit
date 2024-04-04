@@ -1,0 +1,18 @@
+{# templates/components/product_search.html.twig #}
+<div {{ attributes }}>
+  <input
+    type="search"
+    data-model="query"
+    value="{{ query }}"
+    data-action="live#update"
+  >
+  {% if this.products|length > 0 %}
+    <ul data-loading="addClass(opacity-50)">
+      {% for product in this.products %}
+        <li>{{ product.name }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <div>Ah! No packages found matching "{{ query }}"</div>
+  {% endif %}
+</div>

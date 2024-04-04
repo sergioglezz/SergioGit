@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+
+
+
+{% block body %}
+    {{ component('todo_list_live_form', {
+        form: form,
+        todoList: todo.id ? todo : null
+    }) }}
+{% endblock %}

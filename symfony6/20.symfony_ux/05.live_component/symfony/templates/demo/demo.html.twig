@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <hr>
+  {{ component('product_search') }}
+  <hr>
+  {{ component('random_number_twig') }}
+  <hr>
+  {{ component('random_number_live', { max: 500 }) }}
+  <hr>
+  {{ component('random_number_binding') }}
+{% endblock %}

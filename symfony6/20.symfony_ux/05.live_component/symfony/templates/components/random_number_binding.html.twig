@@ -1,0 +1,19 @@
+{# templates/components/random_number.html.twig #}
+<div {{ attributes }}>
+    <input
+        type="number"
+        {# data-model="max" #}
+        {# data-model="debounce(100)|max" #}
+        data-model="on(change)|max"
+        {# data-model="norender|max"#}
+        value="{{ max }}"
+        data-action="live#update"
+    >
+
+    Generating a number between 0 and {{ max }}
+    <strong>{{ this.randomNumber }}</strong>
+    <button
+        data-action="live#action"
+        data-action-name="resetMax"
+    >Reset Min/Max</button>
+</div>

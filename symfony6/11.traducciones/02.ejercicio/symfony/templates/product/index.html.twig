@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% set name = 'productos'|trans %}
+{% set singular_name = 'producto'|trans %}
+
+{% block title %}{{ 'Listado de %elemento%'|trans({'%elemento%': name}) }}{% endblock %}
+
+{% block body %}
+    <h1></h1>
+    {{ 'Listado de %elemento%'|trans({'%elemento%': name}) }}
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>{{ 'Nombre'|trans }}</th>
+                <th>{{ 'Precio'|trans }}</th>
+                <th>{{ 'acciones'|trans }}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for product in products %}
+            <tr>
+                <td>{{ product.id }}</td>
+                <td>{{ product.name }}</td>
+                <td>{{ product.price }}</td>
+                <td>
+                    <a href="{{ path('product_show', {'id': product.id}) }}">{{ 'ver'|trans }}</a>
+                    <a href="{{ path('product_edit', {'id': product.id}) }}">{{ 'editar'|trans }}</a>
+                </td>
+            </tr>
+            {% if loop.last %}
+                <tr>
+
+                    <td colspan="4">
+                        {% set count = products|length %}
+                        {{ '{1} Hay un %un_elemento%|]1,Inf[ Hay %count% %elemento%' |trans( {'%count%': count, '%elemento%': name, '%un_elemento%': singular_name}) }}
+                    </td>
+                </tr>
+            {% endif %}
+        {% else %}
+            <tr>
+                <td colspan="4">{{ 'No hay %elemento%'|trans({'%elemento%': name}) }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('product_new') }}">{{ 'Crear nuevo'|trans }}</a>
+{% endblock %}

@@ -1,0 +1,7 @@
+# translations/messages.es.yaml
+Hello: Hola
+This friendly message is coming from: Este mensaje amistoso viene de
+Your controller at: Tu controlador es
+Your template at: Tu plantilla es
+Wellcome %name%: Bienvenido %name%
+apples: '{0}%name% no tiene manzanas|{1}%name% tiene una manzana|]1,Inf[ %name% tiene %count% manzanas'

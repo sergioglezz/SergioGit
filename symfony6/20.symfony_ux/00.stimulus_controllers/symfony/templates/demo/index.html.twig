@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DemoController!{% endblock %}
+
+{% block body %}
+<div {{ stimulus_controller('markdown') }}>
+    <textarea
+        {{ stimulus_target('markdown', 'input') }}
+    >Writing JavaScript is a **dream** with Stimulus 🤩</textarea>
+
+    <button {{ stimulus_action('markdown', 'render') }}>
+        Render Markdown
+    </button>
+
+    <div {{ stimulus_target('markdown', 'preview') }} ></div>
+</div>
+{% endblock %}
