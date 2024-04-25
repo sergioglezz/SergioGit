@@ -1,0 +1,8 @@
+security:
+    access_control:
+      - { path: '^/secure', roles: ROLE_ADMIN, requires_channel: https }
+      - { path: '^/login', roles: PUBLIC_ACCESS, requires_channel: https }
+      - { path: '^/', roles: PUBLIC_ACCESS, requires_channel: https }
+    firewalls:
+      anonymous: true
+

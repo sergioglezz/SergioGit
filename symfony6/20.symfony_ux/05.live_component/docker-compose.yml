@@ -34,7 +34,7 @@ services:
       context: ./.docker/php
       args:
         TIMEZONE: ${TIMEZONE}
-    image: symfony_php
+    #image: symfony_php
     container_name: symfony_php
     volumes:
       - ./symfony:/var/www/symfony/

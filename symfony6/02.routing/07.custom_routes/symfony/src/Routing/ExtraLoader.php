@@ -21,7 +21,7 @@ class ExtraLoader extends Loader
         // prepare a new route
         $path = '/extra/{parameter}';
         $defaults = [
-            '_controller' => 'App\Controller\ExtraController::extra',
+            '_controller' => 'App\Controller\DefaultCotroller::extra',
         ];
         $requirements = [
             'parameter' => '\d+',
